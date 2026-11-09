@@ -25,7 +25,7 @@ As a result, the device could not communicate correctly with its intended networ
 
 ### Evidence – Initial Fault
 
-![Initial incorrect IP configuration](../Screenshots/Incident-01-Wrong-IP/01-Fault.png)
+![Initial incorrect IP configuration](../Screenshots/Scenario-01-Wrong-IP/01-Fault.png)
 
 *Figure 1: USER-PC assigned an IP address from the wrong subnet.*
 
@@ -45,7 +45,7 @@ VLAN 30 uses the network `192.168.30.0/24`, but USER-PC was assigned an address 
 
 ### Evidence – Diagnosis
 
-![VLAN assignment verification](../Screenshots/Incident-01-Wrong-IP/02-Diagnosis.png)
+![VLAN assignment verification](../Screenshots/Scenario-01-Wrong-IP/02-Diagnosis.png)
 
 *Figure 2: Switch VLAN configuration confirms that USER-PC's port belongs to VLAN 30.*
 
@@ -68,7 +68,7 @@ Updated USER-PC's configuration:
 
 ### Evidence – Successful Recovery
 
-![Corrected IP configuration and successful connectivity](../Screenshots/Incident-01-Wrong-IP/03-Verification.png)
+![Corrected IP configuration and successful connectivity](../Screenshots/Scenario-01-Wrong-IP/03-Verification.png)
 
 *Figure 3: Correct IP configuration and successful connectivity tests after remediation.*
 
