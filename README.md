@@ -87,10 +87,8 @@ Enterprise-Network-Troubleshooting-Lab/
 │   └── Scenario-08-Port-Security/
 │
 ├── Documentation/
-│   ├── Incident-Reports/
-│   └── Screenshots/
-│
-└── Experiments/
+    ├── Incident-Reports/
+    └── Screenshots/
 ```
 
 Each scenario folder contains separate fault and fixed `.pkt` files.
